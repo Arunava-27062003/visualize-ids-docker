@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s  # How often to scrape
+
+scrape_configs:
+  - job_name: 'ids_metrics'
+    static_configs:
+      - targets: ['localhost:9200']

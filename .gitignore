@@ -1,0 +1,49 @@
+# Docker
+.dockerignore
+.docker/
+docker-compose.override.yml
+docker-compose.dev.yml
+.env
+.env.dev
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info
+*.whl
+*.egg
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar
+*.7z
+
+# Virtualenv
+venv/
+.venv/
+env/
+.env/
+virtualenv/
+.virtualenv/
+
+# Grafana
+grafana.db
+grafana.ini
+grafana_data/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+*.swp
+*.DS_Store
+
+# Other
+*.DS_Store
+*.idea/
+*.vscode/
